@@ -1412,6 +1412,7 @@ input, select, textarea {
 
 		.quote-list li img {
 			float: left;
+			width: 60px;
 		}
 
 		.quote-list li p {
