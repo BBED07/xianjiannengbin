@@ -714,7 +714,7 @@ input, select, textarea {
 				}
 
 				.row > .col-4-large {
-					width: 33.33333%;
+					width: 33.33333%; 
 				}
 
 				.row > .off-4-large {
@@ -893,7 +893,7 @@ input, select, textarea {
 
 			.row {
 				display: flex;
-				flex-wrap: wrap;
+				flex-wrap: nowrap;
 				box-sizing: border-box;
 				align-items: stretch;
 			}
@@ -1412,7 +1412,7 @@ input, select, textarea {
 
 		.quote-list li img {
 			float: left;
-			width: 60px;
+			width: 80px;
 		}
 
 		.quote-list li p {
@@ -1610,12 +1610,26 @@ input, select, textarea {
 		border-top: solid 1px #fff;
 		padding: 45px 0 45px 0;
 	}
+	#content .row {
+		display: flex;
+		flex-wrap: wrap;
+		align-items: stretch;
+	}
+	
+	#content section {
+		background: #fff;
+		padding: 40px 30px 45px 30px;
+		box-shadow: 2px 2px 2px 1px rgba(128, 128, 128, 0.1);
+		margin: 0 0 25px 0;
+		height: 100%; /* 让section填充整个高度 */
+	}
 
 		#content section {
 			background: #fff;
 			padding: 40px 30px 45px 30px;
 			box-shadow: 2px 2px 2px 1px rgba(128, 128, 128, 0.1);
 			margin: 0 0 25px 0;
+
 		}
 
 		#content h2 {
@@ -1740,6 +1754,7 @@ input, select, textarea {
 				font-size: 1.5em;
 			}
 
+
 		/* Banner */
 
 			#banner p {
@@ -1769,6 +1784,7 @@ input, select, textarea {
 			#content header {
 				margin: 0 0 1.25em 0;
 			}
+			
 
 	}
 
