@@ -1,0 +1,27 @@
+<svg viewBox="0 0 300 200" xmlns="http://www.w3.org/2000/svg">
+  <!-- 背景 - 透明 -->
+  
+  <!-- 主要特殊符号设计 - 结合自然元素和书本 -->
+  <g id="symbol">
+    <!-- 左上到右下线条(树枝/书页) -->
+    <path d="M70,45 Q100,75 130,105 L70,165" stroke="#3B4346" stroke-width="8" fill="none" stroke-linecap="round"/>
+    <!-- 右上到左下线条(树枝/书页) -->
+    <path d="M130,45 L85,90 Q75,100 70,120" stroke="#3B4346" stroke-width="8" fill="none" stroke-linecap="round"/>
+    <!-- 水波纹装饰 - 绿色 -->
+    <path d="M65,125 Q80,120 95,125 Q110,130 125,125" stroke="#2E8B57" stroke-width="3" fill="none" stroke-linecap="round"/>
+    <path d="M70,135 Q85,130 100,135 Q115,140 130,135" stroke="#2E8B57" stroke-width="2" fill="none" stroke-linecap="round"/>
+    <!-- 人形剪影 - 绿色 -->
+    <circle cx="100" cy="60" r="8" fill="#2E8B57"/>
+    <path d="M95,70 Q100,65 105,70 L105,85 Q100,90 95,85 Z" fill="#2E8B57"/>
+  </g>
+  
+  <!-- JNB文字 - 使用更有设计感的字体，字母间距更近 -->
+  <text x="170" y="105" font-family="Verdana, sans-serif" font-size="42" font-weight="700" text-anchor="middle" fill="#3B4346" style="letter-spacing: -1px;">
+    <tspan style="font-style:italic;">J</tspan>
+    <tspan style="font-weight:900;">N</tspan>
+    <tspan style="font-style:italic;font-weight:900;">B</tspan>
+  </text>
+  
+  <!-- 装饰线条 - 绿色 -->
+  <line x1="125" y1="130" x2="215" y2="130" stroke="#2E8B57" stroke-width="2" stroke-linecap="round"/>
+</svg>
