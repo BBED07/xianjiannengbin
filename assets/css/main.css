@@ -1138,7 +1138,7 @@ input, select, textarea {
 
 			.row {
 				display: flex;
-				flex-wrap: nowrap;
+				flex-wrap: wrap;
 				box-sizing: border-box;
 				align-items: stretch;
 			}
@@ -2087,7 +2087,7 @@ input, select, textarea {
   flex-direction: column;
 }
 
-.nobg {
+/*.nobg {
 	background: #D4D9DD url("images/bg03.jpg") !important;
 	border-bottom: solid 1px #b5bec3;
 	box-shadow: inset 0px -1px 0px 0px #e0e4e7;
@@ -2099,4 +2099,4 @@ input, select, textarea {
 .nobg section {
 	background: none !important;
 	box-shadow: none !important;
-}
+}*/
