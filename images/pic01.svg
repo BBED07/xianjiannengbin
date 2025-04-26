@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 262 110">
+  <!-- Background gradient - dark theme -->
+  <defs>
+    <linearGradient id="bgGradient2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#333333" />
+      <stop offset="100%" stop-color="#222222" />
+    </linearGradient>
+    <radialGradient id="glowEffect2" cx="75%" cy="25%" r="50%" fx="75%" fy="25%">
+      <stop offset="0%" stop-color="#444444" />
+      <stop offset="100%" stop-color="#22222200" />
+    </radialGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="262" height="110" fill="url(#bgGradient2)" />
+  
+  <!-- Subtle glow effect -->
+  <circle cx="200" cy="30" r="80" fill="url(#glowEffect2)" opacity="0.5" />
+  
+  <!-- Interconnected paths representing narrative journeys -->
+  <path d="M20,55 C65,20 110,90 153,40 S196,70 240,55" fill="none" stroke="#6b6349" stroke-width="1.5" stroke-dasharray="3,3" />
+  <path d="M20,70 C65,40 110,100 153,50 S196,85 240,70" fill="none" stroke="#7b7359" stroke-width="1.5" />
+  <path d="M20,40 C65,70 110,20 153,70 S196,40 240,40" fill="none" stroke="#8b8369" stroke-width="1.5" stroke-dasharray="4,2" />
+  
+  <!-- Nodes representing knowledge points -->
+  <circle cx="20" cy="55" r="4" fill="#a4875e" />
+  <circle cx="65" cy="20" r="3" fill="#a4875e" />
+  <circle cx="110" cy="90" r="4" fill="#a4875e" />
+  <circle cx="153" cy="40" r="3" fill="#a4875e" />
+  <circle cx="196" cy="70" r="4" fill="#a4875e" />
+  <circle cx="240" cy="55" r="3" fill="#a4875e" />
+  
+  <!-- Abstract figure representing storytelling -->
+  <g transform="translate(80,65)">
+    <circle cx="0" cy="-10" r="6" fill="#999999" /> <!-- Head -->
+    <path d="M0,-4 L0,6" stroke="#999999" stroke-width="2" /> <!-- Body -->
+    <path d="M-10,4 L0,0 L10,4" fill="none" stroke="#999999" stroke-width="1.5" /> <!-- Arms -->
+    <path d="M-8,16 L0,6 L8,16" fill="none" stroke="#999999" stroke-width="1.5" /> <!-- Legs -->
+  </g>
+  
+  <!-- Stylized open book -->
+  <g transform="translate(170,55)">
+    <path d="M-15,0 Q-5,-5 0,0 Q5,-5 15,0 V15 Q5,10 0,15 Q-5,10 -15,15 Z" fill="#777777" />
+    <path d="M0,0 V15" stroke="#555555" stroke-width="1" />
+  </g>
+  
+  <!-- Abstract elements representing transformation -->
+  <polygon points="40,85 55,80 60,95 45,100" fill="#8b8369" opacity="0.5" />
+  <polygon points="200,90 215,85 220,100 205,105" fill="#9c9379" opacity="0.5" />
+</svg>

@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 262 110">
+  <!-- Background gradient - dark theme -->
+  <defs>
+    <linearGradient id="bgGradient4" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#333333" />
+      <stop offset="100%" stop-color="#222222" />
+    </linearGradient>
+    <radialGradient id="glowEffect4" cx="75%" cy="25%" r="50%" fx="75%" fy="25%">
+      <stop offset="0%" stop-color="#444444" />
+      <stop offset="100%" stop-color="#22222200" />
+    </radialGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="262" height="110" fill="url(#bgGradient4)" />
+  
+  <!-- Subtle glow effect -->
+  <circle cx="200" cy="30" r="80" fill="url(#glowEffect4)" opacity="0.5" />
+  
+  <!-- Stylized mountain range -->
+  <path d="M0,110 L40,60 L70,85 L100,45 L130,70 L160,40 L190,65 L220,35 L262,75 L262,110 Z" fill="#444444" />
+  <path d="M0,110 L55,70 L85,90 L125,50 L155,75 L185,45 L215,70 L245,40 L262,60 L262,110 Z" fill="#333333" />
+  
+  <!-- Abstract trees -->
+  <g transform="translate(60,75)">
+    <path d="M0,0 L-5,15 L5,15 Z" fill="#4d6a52" />
+    <rect x="-1" y="15" width="2" height="5" fill="#4d6a52" />
+  </g>
+  
+  <g transform="translate(80,80)">
+    <path d="M0,0 L-4,12 L4,12 Z" fill="#4d6a52" />
+    <rect x="-0.8" y="12" width="1.6" height="4" fill="#4d6a52" />
+  </g>
+  
+  <g transform="translate(150,75)">
+    <path d="M0,0 L-5,15 L5,15 Z" fill="#5d7a62" />
+    <rect x="-1" y="15" width="2" height="5" fill="#5d7a62" />
+  </g>
+  
+  <g transform="translate(180,78)">
+    <path d="M0,0 L-4,12 L4,12 Z" fill="#5d7a62" />
+    <rect x="-0.8" y="12" width="1.6" height="4" fill="#5d7a62" />
+  </g>
+  
+  <!-- Stylized river/stream -->
+  <path d="M0,100 Q65,90 131,100 T262,92" fill="none" stroke="#536b8a" stroke-width="3" opacity="0.4" />
+  <path d="M0,105 Q65,95 131,105 T262,98" fill="none" stroke="#637b9a" stroke-width="2" opacity="0.3" />
+  
+  <!-- Sun/moon element -->
+  <circle cx="220" cy="30" r="12" fill="none" stroke="#888888" stroke-width="1" />
+  <circle cx="220" cy="30" r="8" fill="#888888" opacity="0.3" />
+  
+  <!-- Human figure observing nature -->
+  <g transform="translate(40,60)">
+    <circle cx="0" cy="-6" r="4" fill="#999999" /> <!-- Head -->
+    <path d="M0,-2 L0,4" stroke="#999999" stroke-width="1.5" /> <!-- Body -->
+    <path d="M-6,2 L0,0 L6,2" fill="none" stroke="#999999" stroke-width="1" /> <!-- Arms -->
+    <path d="M-4,10 L0,4 L4,10" fill="none" stroke="#999999" stroke-width="1" /> <!-- Legs -->
+  </g>
+</svg>

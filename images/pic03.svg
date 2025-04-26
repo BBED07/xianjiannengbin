@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 262 110">
+  <!-- Background gradient - dark theme -->
+  <defs>
+    <linearGradient id="bgGradient3" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#333333" />
+      <stop offset="100%" stop-color="#222222" />
+    </linearGradient>
+    <radialGradient id="glowEffect3" cx="75%" cy="25%" r="50%" fx="75%" fy="25%">
+      <stop offset="0%" stop-color="#444444" />
+      <stop offset="100%" stop-color="#22222200" />
+    </radialGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="262" height="110" fill="url(#bgGradient3)" />
+  
+  <!-- Subtle glow effect -->
+  <circle cx="200" cy="30" r="80" fill="url(#glowEffect3)" opacity="0.5" />
+  
+  <!-- Flowing wave patterns representing harmony -->
+  <path d="M0,75 Q65,60 131,75 T262,65" fill="none" stroke="#537a6c" stroke-width="2" opacity="0.7" />
+  <path d="M0,85 Q65,70 131,85 T262,75" fill="none" stroke="#63907f" stroke-width="1.5" opacity="0.6" />
+  <path d="M0,95 Q65,80 131,95 T262,85" fill="none" stroke="#739f8e" stroke-width="1" opacity="0.5" />
+  
+  <!-- Meditation figure representing wellness -->
+  <g transform="translate(131,55)">
+    <circle cx="0" cy="-10" r="6" fill="#999999" /> <!-- Head -->
+    <path d="M0,-4 L0,6" stroke="#999999" stroke-width="2" /> <!-- Body -->
+    <path d="M-14,4 L0,0 L14,4" fill="none" stroke="#999999" stroke-width="1.5" /> <!-- Arms -->
+    <path d="M-10,16 L0,6 L10,16" fill="none" stroke="#999999" stroke-width="1.5" /> <!-- Legs -->
+  </g>
+  
+  <!-- Circles representing mind, body, environment connection -->
+  <circle cx="65" cy="55" r="12" fill="none" stroke="#537a6c" stroke-width="1.5" />
+  <circle cx="65" cy="55" r="6" fill="none" stroke="#63907f" stroke-width="1" />
+  
+  <circle cx="195" cy="55" r="12" fill="none" stroke="#537a6c" stroke-width="1.5" />
+  <circle cx="195" cy="55" r="6" fill="none" stroke="#63907f" stroke-width="1" />
+  
+  <!-- Abstract elements representing balance -->
+  <rect x="35" y="85" width="5" height="15" rx="1" fill="#63907f" opacity="0.7" />
+  <rect x="45" y="80" width="5" height="20" rx="1" fill="#63907f" opacity="0.7" />
+  <rect x="55" y="75" width="5" height="25" rx="1" fill="#63907f" opacity="0.7" />
+  
+  <rect x="215" y="85" width="5" height="15" rx="1" fill="#63907f" opacity="0.7" />
+  <rect x="225" y="80" width="5" height="20" rx="1" fill="#63907f" opacity="0.7" />
+  <rect x="235" y="75" width="5" height="25" rx="1" fill="#63907f" opacity="0.7" />
+</svg>
